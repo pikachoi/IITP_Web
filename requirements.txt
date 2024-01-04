@@ -1,0 +1,24 @@
+django==4.2.5
+channels==3.0.5                   
+chartjs==1.2                  
+keras==2.12.0               
+matplotlib==3.7.1               
+numpy==1.23.5                  
+opencv-python==4.7.0.72      
+pillow==9.5.0                   
+pyupbit==0.2.33              
+pyyaml==6.0                     
+scikit-image==0.19.2
+scikit-learn==1.0.2
+scikit-learn-intelex
+scipy==1.9.1
+pandas==1.4.4
+pytorch-tabnet==4.1.0
+--extra-index-url https://download.pytorch.org/whl/cu117
+torch==2.0.0+cu117  
+--extra-index-url https://download.pytorch.org/whl/cu117           
+torchaudio==2.0.1+cu117     
+--extra-index-url https://download.pytorch.org/whl/cu117      
+torchvision==0.15.1+cu117  
+
+

@@ -1,0 +1,231 @@
+/* /static/img/back.jpeg */
+/* https://cdn.pixabay.com/photo/2018/05/11/15/49/globalisation-3390877_1280.jpg */
+.container_back {
+    /* background-color: rgba(25, 22, 30, 0.8); */
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8),
+    rgba(25, 22, 30, 0.6)
+    ), url("/static/img/back1.jpg");
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    /* 자식 요소들 가로 배치 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.menu_bar {
+    border-radius: 15px;
+    padding: 10px;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgba(255, 255, 255, 0.8);
+    align-items: center;
+}
+
+.menu_text {
+    font-size: 12PX;
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 80%;
+    border-bottom: 0.7px solid rgba(244, 244, 244, 0.5);
+}
+
+.menu_text i {
+    margin-right: 15px; /* 아이콘, 텍스트 사이의 간격 */
+}
+
+.middle_desplay {
+    /* border: 0.7px solid rgba(244, 244, 244, 1); */
+    border-radius: 15px;
+    padding: 10px;
+    width: 65%;
+    height: 100%;
+    display: flex; /* Flex 컨테이너로 설정 */
+    flex-direction: column; /* 아이템들을 세로로 정렬 */
+    justify-content: center; /* 아이템들을 수직 방향 가운데 정렬 */
+    align-items: center; /* 아이템들을 수평 방향 가운데 정렬 */
+}
+
+.middle_inside_1 {
+    text-align: center; 
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8); 
+}
+
+.data_list_box {
+    border: 0.2px solid rgba(244, 244, 244, 0.5);
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+    text-align: left;
+    width: 20%; 
+    height: 100%; 
+    padding: 10px;
+    overflow-y: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 11px;
+}
+
+.middle_inside_2 {
+    /* border: 0.2px solid rgba(244, 244, 244, 0.3); */
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 5px;
+}
+
+.middle_inside_3 {
+    /* border: 0.2px solid rgba(31, 169, 187, 1); */
+    border-top-right-radius: 10px; 
+    width: 100%;
+    height: 43.5%;
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-between;
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.middle_inside_3_2 {
+    background-color: rgba(118, 120, 125, 0.3);
+    border-radius: 10px; 
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.doughnut_container {
+    /* border: 0.2px solid rgba(240, 228, 228, 0.3); */
+    background-color: rgba(118, 120, 125, 0.3);
+    border-radius: 10px;
+    width: 33.33%;
+    height: 100%;
+    padding: 5%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; /* 텍스트를 가운데 정렬 */
+}
+
+.data_column_1 {
+    padding-right: 1px; /* 실시간 로그 컬럼 간격 조정*/
+    width: 100%;
+    border-top: 1px solid rgba(244, 244, 244, 0.5);
+    height: 6%; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_inside_4 {
+    border: 0.2px solid rgba(244, 244, 244, 0.5);
+    text-align: center;
+    width: 100%; 
+    height: 40.5%; 
+    /* padding: 2px; */
+    overflow-y: auto;
+    color: rgba(255, 255, 255, 1);
+    font-size: 12px;
+    line-height: 0.1; /* 행간 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line_container {
+    background-color: rgba(118, 120, 125, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 5px;
+}
+
+.right_desplay {
+    /* border-top: 0.7px solid rgba(244, 244, 244, 1); */
+    /* border-right: 0.7px solid rgba(244, 244, 244, 1); */
+    /* 왼쪽 외곽선 제외 */
+    /* border-bottom: 0.7px solid rgba(244, 244, 244, 1); */
+    border-radius: 15px;
+    padding: 10px;
+    width: 25%;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar_container {
+    background-color: rgba(118, 120, 125, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+}
+
+.right_inside_1 {
+    border: 0.2px solid rgba(244, 244, 244, 0.5);
+    border-radius: 10px;
+    text-align: center; 
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    display: grid;
+    place-items: center; 
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.pie_container {
+    background-color: rgba(118, 120, 125, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    height: 40%;
+    padding: 5px;
+}
+
+.data_list {
+    height: 100%;
+    border-left: 1px solid rgba(244, 244, 244, 0.5);
+    overflow-x: hidden;
+    white-space: nowrap; /* 텍스트가 줄 바꿈되지 않도록 설정 */
+    overflow-y: hidden;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* 데이터 값과 컬럼의 간격 오차 조정 */
+.data_list_column {
+    border-left: 1px solid rgba(244, 244, 244, 0.5);
+    height: 80%;
+    font-size: 10px;
+    text-align: center;
+}
+
+
